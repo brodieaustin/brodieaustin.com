@@ -347,11 +347,11 @@ fieldset {
 
 .button {
   display: inline-block;
-  padding: 1.125rem 3rem;
+  padding: 1.125rem 2rem;
   background-color: #326273;
   border: 0;
   font-family: inherit;
-  font-size: 100%;
+  font-size: .9375rem;
   color: inherit;
   text-decoration: none;
   letter-spacing: 3px;
@@ -364,8 +364,12 @@ fieldset {
     opacity: .7;
     transition: all .2s linear; }
   .button.fancy {
-    padding-left: 4rem;
-    padding-right: 4rem; }
+    padding-left: 3rem;
+    padding-right: 3rem; }
+    @media screen and (min-width: 30rem) {
+      .button.fancy {
+        padding-left: 4rem;
+        padding-right: 4rem; } }
     .button.fancy:hover {
       transform: scale(1.05); }
 
