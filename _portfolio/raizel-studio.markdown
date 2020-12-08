@@ -1,5 +1,5 @@
 ---
-title: "Raizel studio"
+title: "Raizel Studio"
 summary: "Minimalist landing page for creative studio in Evanston."
 website: raizelstudio.com
 website_url: http://raizelstudio.com
