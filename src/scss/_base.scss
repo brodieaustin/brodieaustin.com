@@ -46,3 +46,18 @@ a{
     border-radius: 50%;
   }
 }
+
+.button-container{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+
+@keyframes scrolling {
+  from{
+      background-position: 0 0;
+  }
+  to{
+      background-position: 0 105%;
+  }
+}

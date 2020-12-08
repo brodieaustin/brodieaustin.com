@@ -1,15 +1,23 @@
 {
   "name": "brodieaustin",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's just a blog and a personal site.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brodieaustin/brodieaustin.com.git"
+  },
   "author": "Brodie Austin",
   "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/brodieaustin/brodieaustin.com/issues"
+  },
+  "homepage": "https://github.com/brodieaustin/brodieaustin.com#readme",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
   }
 }

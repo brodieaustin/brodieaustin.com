@@ -5,7 +5,7 @@ website: raizeldesigns.com
 website_url: http://raizeldesigns.com
 screenshot: raizeldesigns.jpg
 tags: ['static', 'freelance', 'business']
-featured: true
+featured: false
 ---
 
 This site is temporary splash page for a new salon and design studio in Evanston.

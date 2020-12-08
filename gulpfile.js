@@ -16,7 +16,7 @@ function css(){
 
 // Jekyll
 function jekyll() {
-  return cp.spawn("jekyll", ["serve"], { stdio: "inherit" });
+  return cp.spawn("bundle", ["exec", "jekyll", "serve"], { stdio: "inherit" });
 }
 
 // Watch files
