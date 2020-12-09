@@ -3,6 +3,8 @@
 }
 
 .hero-section{
+  background-color: $white;
+  
   .container{
     padding-top: 1rem;
     padding-bottom: 4rem;
@@ -37,7 +39,6 @@
 
 
   .portfolio-section{
-    background-color: $secondary-color;
 
     .container{
       @media screen and (min-width: 30rem){

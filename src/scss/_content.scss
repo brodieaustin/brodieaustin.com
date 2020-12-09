@@ -1,6 +1,9 @@
 .content-header{
-  background-color: $secondary-color;
   text-align: center;
+
+  .container{
+    padding-bottom: 2rem;
+  }
 
   h1{
     max-width: 80%;
@@ -14,6 +17,7 @@
 }
 
 .content-meta{
+  margin-top: .5rem;
   color: $font-color;
   text-transform: uppercase;
   color: lighten($font-color, 30%);
@@ -24,8 +28,11 @@
 }
 
 .content-body{
-  max-width: 38rem;
-  margin: auto;
+
+  .container{
+    padding-top: 1rem;
+    max-width: 38rem;
+  }
 
   img{
     max-width: 100%;

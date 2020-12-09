@@ -71,7 +71,7 @@
 .portfolio-site-screenshot{
   position: relative;
   bottom: -6px;
-  margin: 0;
+  margin: 2rem 0 0;
 
   img{
     max-width: 100%;
@@ -80,6 +80,16 @@
   }
 }
 
+
+.portfolio-site-description{
+  background-color: $white;
+
+  .container{
+    padding-top: 2rem;
+  }
+}
+
 .portfolio-site .tags{
   margin-top: 2rem;
+  padding-left: 0;
 }

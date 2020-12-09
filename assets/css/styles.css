@@ -6,6 +6,7 @@ html, body {
   padding: 0; }
 
 body {
+  background-color: #E6ECEE;
   font-family: 'Chivo', sans-serif;
   line-height: 1.6; }
 
@@ -122,12 +123,14 @@ a {
 .homepage {
   text-align: center; }
 
-.hero-section .container {
-  padding-top: 1rem;
-  padding-bottom: 4rem; }
-  @media screen and (min-width: 30rem) {
-    .hero-section .container {
-      padding-bottom: 6rem; } }
+.hero-section {
+  background-color: #fff; }
+  .hero-section .container {
+    padding-top: 1rem;
+    padding-bottom: 4rem; }
+    @media screen and (min-width: 30rem) {
+      .hero-section .container {
+        padding-bottom: 6rem; } }
 
 .hero-text {
   margin: 0;
@@ -147,12 +150,10 @@ a {
   font-size: 2.5rem;
   text-transform: uppercase; }
 
-.homepage .portfolio-section {
-  background-color: #E6ECEE; }
-  @media screen and (min-width: 30rem) {
-    .homepage .portfolio-section .container {
-      padding-top: 4rem;
-      padding-bottom: 6rem; } }
+@media screen and (min-width: 30rem) {
+  .homepage .portfolio-section .container {
+    padding-top: 4rem;
+    padding-bottom: 6rem; } }
 
 .homepage .contact-section {
   background-color: #fff; }
@@ -166,8 +167,9 @@ a {
     font-size: 1.125rem; }
 
 .content-header {
-  background-color: #E6ECEE;
   text-align: center; }
+  .content-header .container {
+    padding-bottom: 2rem; }
   .content-header h1 {
     max-width: 80%;
     margin: auto;
@@ -177,39 +179,45 @@ a {
         font-size: 3.5rem; } }
 
 .content-meta {
+  margin-top: .5rem;
   color: #333;
   text-transform: uppercase;
   color: gray; }
   .content-meta a {
     color: inherit; }
 
-.content-body {
-  max-width: 38rem;
-  margin: auto; }
-  .content-body img {
-    max-width: 100%;
-    height: auto; }
-  .content-body ul {
-    list-style: square; }
-  .content-body ul, .content-body ol {
-    padding-left: 1rem;
-    text-indent: .25rem; }
-  .content-body ul li, .content-body ol li {
-    margin-bottom: .25rem; }
-  .content-body blockquote {
-    margin: 2rem 0;
-    padding: 0 1.375rem;
-    border-left: 6px solid #326273;
-    line-height: 1.3;
-    font-size: 1.5rem;
-    font-style: italic;
-    color: #326273; }
-    .content-body blockquote p:first-of-type {
-      margin-top: 0; }
-    .content-body blockquote p:last-of-type {
-      margin-bottom: 0; }
-    .content-body blockquote a {
-      color: #79b1c5; }
+.content-body .container {
+  padding-top: 1rem;
+  max-width: 38rem; }
+
+.content-body img {
+  max-width: 100%;
+  height: auto; }
+
+.content-body ul {
+  list-style: square; }
+
+.content-body ul, .content-body ol {
+  padding-left: 1rem;
+  text-indent: .25rem; }
+
+.content-body ul li, .content-body ol li {
+  margin-bottom: .25rem; }
+
+.content-body blockquote {
+  margin: 2rem 0;
+  padding: 0 1.375rem;
+  border-left: 6px solid #326273;
+  line-height: 1.3;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #326273; }
+  .content-body blockquote p:first-of-type {
+    margin-top: 0; }
+  .content-body blockquote p:last-of-type {
+    margin-bottom: 0; }
+  .content-body blockquote a {
+    color: #79b1c5; }
 
 .embed {
   position: relative;
@@ -273,14 +281,20 @@ a {
 .portfolio-site-screenshot {
   position: relative;
   bottom: -6px;
-  margin: 0; }
+  margin: 2rem 0 0; }
   .portfolio-site-screenshot img {
     max-width: 100%;
     height: auto;
     border-radius: 1rem 1rem 0 0; }
 
+.portfolio-site-description {
+  background-color: #fff; }
+  .portfolio-site-description .container {
+    padding-top: 2rem; }
+
 .portfolio-site .tags {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  padding-left: 0; }
 
 .previous-posts .posts {
   list-style: none;
@@ -330,8 +344,7 @@ a {
   color: #326273; }
 
 form {
-  padding-bottom: 4rem;
-  background-color: #fff; }
+  padding-bottom: 4rem; }
   form hr {
     margin: 2rem 0 2.5rem; }
 
@@ -394,7 +407,6 @@ fieldset {
       transform: scale(1.05); }
 
 .contact {
-  background: #326273;
   overflow: hidden;
   color: #fff; }
   .contact h3 {
