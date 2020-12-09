@@ -31,5 +31,25 @@
   <!--footer-->
   {% include footer.html %}
 
+  <script>
+    (function(){
+      if (window.location.search.indexOf('tag') == 1){
+        const params = new URLSearchParams(window.location.search);
+        const tag_param = params.get('tag')
+        const sites = document.querySelectorAll('.portfolio-site-preview');
+        const more_link = document.querySelector('.button-container');
+
+        for (let i = 0; i < sites.length; i++) {
+          if (sites[i].classList.contains(tag_param) == false){
+            sites[i].classList.add('visually-hidden');
+            sites[i].setAttribute('aria-hidden', true);
+          }
+        }
+
+        more_link.classList.remove('visually-hidden');
+      }
+    })();
+  </script>
+
 </body>
 </html>

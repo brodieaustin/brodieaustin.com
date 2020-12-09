@@ -37,11 +37,14 @@ a {
   margin-top: 4rem;
   text-align: center; }
 
-@keyframes scrolling {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: 0 105%; } }
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; }
 
 .container {
   max-width: 64rem;
@@ -134,11 +137,12 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #326273; }
-  @media screen and (min-width: 30rem) {
+  @media screen and (min-width: 54rem) {
     .hero-text {
       font-size: 5rem; } }
 
 .homepage h2 {
+  margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 2.5rem;
   text-transform: uppercase; }
@@ -147,14 +151,14 @@ a {
   background-color: #E6ECEE; }
   @media screen and (min-width: 30rem) {
     .homepage .portfolio-section .container {
-      padding-top: 6rem;
+      padding-top: 4rem;
       padding-bottom: 6rem; } }
 
 .homepage .contact-section {
   background-color: #fff; }
   @media screen and (min-width: 30rem) {
     .homepage .contact-section .container {
-      padding-top: 6rem;
+      padding-top: 4rem;
       padding-bottom: 6rem; } }
   .homepage .contact-section p {
     max-width: 32rem;

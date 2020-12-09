@@ -1,4 +1,4 @@
-<li class="portfolio-site-preview">
+<li class="portfolio-site-preview {{ p.tags | join: ' ' }}">
   <a href="{{ p.url }}" class="thumbnail">
     <img src="/assets/img/portfolio/{{ p.screenshot }}">
   </a>

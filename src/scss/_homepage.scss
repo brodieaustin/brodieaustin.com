@@ -22,13 +22,14 @@
   letter-spacing: 1px;
   color: $primary-color;
 
-  @media screen and (min-width: 30rem){
+  @media screen and (min-width: 54rem){
     font-size: 5rem;
   }
 }
 
 .homepage{
   h2{
+    margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -40,7 +41,7 @@
 
     .container{
       @media screen and (min-width: 30rem){
-        padding-top: 6rem;
+        padding-top: 4rem;
         padding-bottom: 6rem;
       }
     }
@@ -52,7 +53,7 @@
     .container{
 
       @media screen and (min-width: 30rem){
-        padding-top: 6rem;
+        padding-top: 4rem;
         padding-bottom: 6rem;
       }
     }
