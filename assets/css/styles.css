@@ -406,6 +406,15 @@ fieldset {
     .button.fancy:hover {
       transform: scale(1.05); }
 
+.phone {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px; }
+
 .contact {
   overflow: hidden;
   color: #fff; }

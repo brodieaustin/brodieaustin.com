@@ -7,17 +7,24 @@ description: 'Let\s talk about how we can work together.'
 <section class="form">
     <form action="https://formspree.io/f/mknkwgly" method="POST">
       <input type="hidden" name="_next" value="{{ site.baseurl }}/contact/thanks/" />
-      <div class="control-group wide-controls">
+      <div class="control-group wide-controls name">
         <label for="name">Name</label>
         <input type="text" name="name" id="name">
       </div>
-      <div class="control-group wide-controls">
+      <div class="control-group wide-controls email">
         <label for="replyto">Email address</label>
         <input type="email" name="_replyto" id="replyto">
       </div>
-      <div class="control-group wide-controls">
+      <div class="control-group wide-controls phone">
+        <label for="replyto">Phone number</label>
+        <input type="text" name="_gotcha" id="phone">
+      </div>
+      <div class="control-group wide-controls body">
         <label for="body">What do you want to work on?</label>
         <textarea name="body" rows="20"></textarea>
+      </div>
+      <div>
+        <div class="g-recaptcha" data-sitekey="6LfhpqAbAAAAACcTHAHtW9W13nhGzK19qrQhe8JH"></div>
       </div>
       <div class="button-container">
         <input type="submit" value="Send" class="button fancy submit">

@@ -85,3 +85,7 @@ fieldset{
     }
   }
 }
+
+.phone{
+  @include visually-hidden;
+}
