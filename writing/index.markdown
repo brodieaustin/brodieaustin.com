@@ -10,4 +10,4 @@ I have written several short novels over the last few years during NaNoWriMo. I 
 - [Building 300 (2019)](https://brodieaustin.github.io/building-300/)
 - [The Rift (2013)](http://brodieaustin.github.io/the-rift/)
 - [The Poisoned Well (2012)](https://brodieaustin.github.io/poisoned-well-novel/)
-- [Radio Quiet Novel (2011)](http://brodieaustin.github.io/radio_quiet_novel/)
+- [Radio Quiet Zone (2011)](http://brodieaustin.github.io/radio_quiet_novel/)
