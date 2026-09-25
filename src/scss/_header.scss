@@ -1,9 +1,16 @@
 .site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   background-color: $secondary-color;
-  padding: 1rem 2rem;
+  padding: 1rem;
+
+  @media screen and (min-width: 54rem){
+    flex-direction: row;
+    padding: 1rem 2rem;
+  }
 }
-
-
 
 .homepage .site-header{
   background-color: $white;
@@ -52,4 +59,29 @@
 .homepage .brand-title{
   position: static;
   display: block;
+}
+
+.site-nav-items{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  margin: 1rem 0;
+  padding: 0;
+  text-align: center;
+
+
+  @media screen and (min-width: 20rem){
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  @media screen and (min-width: 54rem){
+    margin-top: 0;
+  }
+
+  a{
+    font-size: .8125rem;
+    text-transform: uppercase;;
+  }
 }

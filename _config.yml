@@ -10,6 +10,9 @@ collections:
     portfolio:
         output: true
         permalink: /portfolio/:title/
+    archive:
+        output: true
+        permalink: /archive/:title/
 defaults:
   -
     scope:
@@ -23,3 +26,9 @@ defaults:
       type: "portfolio"
     values:
       layout: portfolio
+  -
+    scope:
+      path: ""
+      type: "archive"
+    values:
+      layout: archive
