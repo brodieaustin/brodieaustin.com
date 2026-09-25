@@ -1,8 +1,8 @@
 ---
 title: "Youth Chorus of the North Shore"
 summary: "Clean, modern site for a local youth chorus."
-website: youthchorusnorthshore.com
-website_url: http://youthchorusnorthshore.com
+website: youthchorusnorthshore.org
+website_url: https://youthchorusnorthshore.org
 screenshot: youthchorusnorthshore.jpg
 tags: ['craft', 'freelance', 'nonprofit']
 featured: true

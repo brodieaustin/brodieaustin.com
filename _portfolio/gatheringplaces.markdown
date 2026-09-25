@@ -1,11 +1,11 @@
 ---
 title: "Gathering Places"
 summary: "Custom Omeka theme for public history site."
-website: liblamp.uwm.edu/omeka/gatheringplaces/
-website_url: https://liblamp.uwm.edu/omeka/gatheringplaces/
+website: web.uwm.edu/lib-omeka-gatheringplaces
+website_url: https://https://web.uwm.edu/lib-omeka-gatheringplaces
 screenshot: gatheringplaces.jpg
 tags: ['omeka', 'freelance', 'exhibit', 'public history']
-featured: true
+featured: false
 ---
 
 A former colleague, now a professor and researcher at the University of Wisconsin, Milwaukee, reached out to me about customizing the look and feel of an Omeka site he started building with students in a public history course. The site catalogs the religious history of Milwaukee in the built environment, relying heavily of maps, images, and sounds.
